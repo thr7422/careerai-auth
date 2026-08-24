@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verified - CareerAI Resume</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .card { background: #1e293b; padding: 40px; border-radius: 16px; text-align: center; max-width: 400px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+        .icon { font-size: 50px; margin-bottom: 15px; }
+        h1 { font-size: 22px; margin-bottom: 10px; color: #38bdf8; }
+        p { color: #94a3b8; font-size: 14px; line-height: 1.5; }
+        .btn { display: inline-block; margin-top: 20px; padding: 12px 24px; background: #38bdf8; color: #0f172a; font-weight: bold; border-radius: 8px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">✅</div>
+        <h1>Email Verified Successfully!</h1>
+        <p>Aapka account verify ho chuka hai. Ab aap app open kar ke continue kar sakte hain.</p>
+        <a href="yourapp://welcome" class="btn">Open App</a>
+    </div>
+
+    <script>
+        // Agar user phone par hai to 1 second baad auto app trigger ho
+        setTimeout(() => {
+            window.location.href = "yourapp://welcome";
+        }, 1200);
+    </script>
+</body>
+</html>
